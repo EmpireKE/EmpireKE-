@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - EMPIRE COMPANY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="path/to/golden-lion-head.png" alt="Empire Company Logo" class="logo">
+        <h1>Empire Company</h1>
+    </header>
+
+    <nav class="sidebar">
+        <h2>Dashboard Menu</h2>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <!-- Add other links as necessary -->
+        </ul>
+    </nav>
+
+    <main class="content">
+        <h2>About Empire Company</h2>
+        <p>Empire Company is dedicated to providing top-notch services and products to our clients. Our commitment to excellence is unwavering.</p>
+
+        <button onclick="contactUs()">Contact Us</button>
+    </main>
+
+    <script>
+        function contactUs() {
+            alert("Contact us functionality is not implemented yet.");
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            text-align: center;
+            background-color: #f8f8f8;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 100px; /* Adjust size as needed */
+        }
+
+        nav.sidebar {
+            width: 200px;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            float: center; /* Align bottom to the left */
+        }
+
+        nav.sidebar h2 {
+            color: #fff;
+        }
+
+        nav.sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav.sidebar ul li {
+            margin: 10px 0;
+        }
+
+        nav.sidebar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main.content {
+            margin-left: 220px; /* Leave space for sidebar */
+            padding: 20px;
+        }
+    </style>
+</body>
+</html>
